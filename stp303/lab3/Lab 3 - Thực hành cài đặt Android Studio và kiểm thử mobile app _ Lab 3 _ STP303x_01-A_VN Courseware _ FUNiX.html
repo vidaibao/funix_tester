@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<!-- saved from url=(0280)https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/courseware/f8a7b39363bc4301ac89a44d83f4cbd5/fd0236da641b4f79b24acb64628e502f/?activate_block_id=block-v1%3AFUNiX%2BSTP303x_01-A_VN%2B2022_T2%2Btype%40sequential%2Bblock%40fd0236da641b4f79b24acb64628e502f -->
+<html lang="en"><!--<![endif]--><head dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">span.iconify, i.iconify, iconify-icon { display: inline-block; width: 1em; }</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  
+<title data-base-title="
+ Lab 3 | STP303x_01-A_VN Courseware | FUNiX">
+  
+ Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app | Lab 3 | STP303x_01-A_VN Courseware | FUNiX
+</title>
+
+
+      <script type="text/javascript" async="" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/analytics.js.ダウンロード"></script><script type="text/javascript" async="" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/js"></script><script type="text/javascript">
+        /* immediately break out of an iframe if coming from the marketing website */
+        (function(window) {
+          if (window.location !== window.top.location) {
+            window.top.location = window.location;
+          }
+        })(this);
+      </script>
+
+  
+
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/djangojs.b28203373cc1.js.ダウンロード"></script>
+
+  <link rel="icon" type="image/x-icon" href="https://courses.funix.edu.vn/static/public.site/images/favicon.8226308254c3.ico">
+
+  
+  
+
+    <link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-style-vendor.4ccaa7f84216.css" rel="stylesheet" type="text/css">
+
+
+
+    
+  
+
+    <link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-main-v1.6dd0a4734340.css" rel="stylesheet" type="text/css">
+
+
+
+
+    
+    <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-main_vendor.53cdacba553b.js.ダウンロード" charset="utf-8"></script>
+
+
+    
+    <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-application.7a7a3ec8bdd7.js.ダウンロード" charset="utf-8"></script>
+
+
+
+
+  <script>
+    window.baseUrl = "/static/";
+    (function (require) {
+      require.config({
+          baseUrl: window.baseUrl
+      });
+    }).call(this, require || RequireJS.require);
+  </script>
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/require-config.7181341023ea.js.ダウンロード"></script>
+  
+    <script type="text/javascript">
+        (function (require) {
+          require.config({
+              paths: {
+                'js/courseware/courseware_factory': 'js/courseware/courseware_factory.1504fc10caef',
+'draggabilly': 'js/vendor/draggabilly.26caba6f7187',
+'js/courseware/course_home_events': 'js/courseware/course_home_events.f9fa9db95688',
+'js/dateutil_factory': 'js/dateutil_factory.3eb368403470',
+'course_bookmarks/js/views/bookmark_button': 'course_bookmarks/js/views/bookmark_button.59e957d21d61',
+'js/courseware/accordion_events': 'js/courseware/accordion_events.6064c7809de5',
+'hls': 'common/js/vendor/hls.b10b9ef4015b',
+'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.22ad04bb0497',
+'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
+'moment': 'common/js/vendor/moment-with-locales.084396f4103c',
+'moment-timezone': 'common/js/vendor/moment-timezone-with-data.fb672d94d97e',
+'js/views/message_banner': 'js/views/message_banner.099aec538f98',
+'js/groups/discussions_management/discussions_dashboard_factory': 'js/discussions_management/views/discussions_dashboard_factory.2e10d9097343',
+'js/student_account/logistration_factory': 'js/student_account/logistration_factory.39b8b2b9e9a9',
+'js/student_profile/views/learner_profile_factory': 'js/student_profile/views/learner_profile_factory.1ff1c6343594',
+'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.8ad700838f0f'
+            }
+          });
+        }).call(this, require || RequireJS.require);
+    </script>
+  
+
+    
+    <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-modules.b0b524c44599.js.ダウンロード" charset="utf-8"></script>
+
+
+
+  
+
+  
+
+    <link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-style-course-vendor.60799ae7d9f8.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-course.e2325b57e44b.css" rel="stylesheet" type="text/css">
+
+
+
+
+<script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/jquery.autocomplete.3bd10d7510d2.js.ダウンロード"></script>
+<script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/tooltip_manager.e3531e99ed92.js.ダウンロード"></script>
+
+<link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/jquery.autocomplete.09a0b34739a2.css" rel="stylesheet" type="text/css">
+  
+
+  
+
+  
+
+
+
+  
+
+  
+
+
+  
+
+
+<!-- dummy Segment -->
+<script type="text/javascript">
+  var analytics = {
+    track: function() { return; },
+    trackLink: function() { return; },
+    pageview: function() { return; },
+    page: function() { return; }
+  };
+</script>
+<!-- end dummy Segment -->
+
+
+  <meta name="path_prefix" content="">
+  <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY">
+
+
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="hls" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/hls.b10b9ef4015b.js.ダウンロード"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/moment-with-locales.084396f4103c.js.ダウンロード"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="draggabilly" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/draggabilly.26caba6f7187.js.ダウンロード"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="course_bookmarks/js/views/bookmark_button" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/bookmark_button.59e957d21d61.js.ダウンロード"></script><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/views/message_banner" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/message_banner.099aec538f98.js.ダウンロード"></script></head>
+
+<body class="ltr view-in-course view-courseware courseware  lang_en"><div id="MathJax_Message" style="display: none;"></div>
+
+
+<div id="page-prompt"></div>
+  <div class="window-wrap" dir="ltr">
+    <a class="nav-skip sr-only sr-only-focusable" href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/courseware/f8a7b39363bc4301ac89a44d83f4cbd5/fd0236da641b4f79b24acb64628e502f/?activate_block_id=block-v1%3AFUNiX%2BSTP303x_01-A_VN%2B2022_T2%2Btype%40sequential%2Bblock%40fd0236da641b4f79b24acb64628e502f#main">Skip to main content</a>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header id="global-navigation" class="header-global slim">
+    <nav class="wrapper-header" aria-label="Global">
+      
+
+
+
+
+
+<h1 class="hd logo-header">
+  <div class="logo">
+    <a href="https://courses.funix.edu.vn/">
+      
+      <img src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/logo.png" alt="FUNiX Home Page">
+      
+    </a>
+  </div>
+    <div class="course-header">
+      <span class="provider">FUNiX:</span>
+      <span class="course-number">STP303x_01-A_VN</span>
+      
+      <span class="course-name">Kiểm thử nâng cao</span>
+    </div>
+</h1>
+
+        
+
+
+
+
+
+
+<ol class="left nav-global list-inline authenticated">
+  
+      <li class="item nav-global-01">
+        <a href="https://courses.funix.edu.vn/courses">Explore courses</a>
+      </li>
+  
+</ol>
+
+
+
+
+
+
+
+    <ol class="user">
+        <li class="primary">
+            <a href="https://courses.funix.edu.vn/dashboard" class="user-link">
+                <span class="sr">Dashboard for:</span>
+                
+                <img class="user-image-frame" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/default_50.76570a4d025e.png" alt="">
+                <div class="label-username">vunaFX19089</div>
+            </a>
+        </li>
+        <li class="primary">
+            <div class="user-menu">
+                <button class="user-dropdown" aria-expanded="false" aria-haspopup="true">
+                    <span class="sr">More options</span>
+                    <span class="fa fa-sort-desc" aria-hidden="true"></span>
+                </button>
+                <ul class="user-dropdown-menu" aria-label="More Options" role="menu">
+                    
+                    <li class="dropdown-item item has-block-link"><a href="https://courses.funix.edu.vn/dashboard" role="menuitem" class="action dropdown-menuitem">Dashboard</a></li>
+                    <li class="dropdown-item item has-block-link"><a href="https://courses.funix.edu.vn/u/vunaFX19089" role="menuitem" class="action dropdown-menuitem">Profile</a></li>
+                    <li class="dropdown-item item has-block-link"><a href="https://courses.funix.edu.vn/account/settings" role="menuitem" class="action dropdown-menuitem">Account</a></li>
+                
+                    <li class="item"><a href="https://courses.funix.edu.vn/logout" role="menuitem" class="user-dropdown-menuitem">Sign Out</a></li>
+                </ul>
+            </div>
+        </li>
+    </ol>
+
+
+<div><a target="_blank" href="https://portal.funix.edu.vn/" class="doc-link">Bảng điểm</a></div>
+
+<div><a target="_blank" href="https://funix.gitbook.io/funix-documentation/" class="doc-link">Sổ tay SV</a></div>
+
+
+    </nav>
+  </header>
+<!--[if lte IE 9]>
+<div class="ie-banner" aria-hidden="true"><strong>Warning:</strong> Your browser is not fully supported. We strongly recommend using <a href="https://www.google.com/chrome" target="_blank">Chrome</a> or <a href="http://www.mozilla.org/firefox" target="_blank">Firefox</a>.</div>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    <div class="content-wrapper  main-container" id="content">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="image-modal-tpl">
+    <div class="wrapper-modal wrapper-modal-image">
+  <section class="image-link">
+    <%= smallHTML%>
+    <a href="#" class="modal-ui-icon action-fullscreen" role="button">
+      <span class="label">
+        <span class="icon fa fa-arrows-alt fa-large" aria-hidden="true"></span> <%- gettext("Fullscreen") %>
+      </span>
+    </a>
+  </section>
+
+  <section class="image-modal">
+    <section class="image-content">
+      <div class="image-wrapper">
+        <img alt="<%= largeALT %>, <%- gettext('Large') %>" src="<%= largeSRC %>" />
+      </div>
+
+      <a href="#" class="modal-ui-icon action-close" role="button">
+        <span class="label">
+          <span class="icon fa fa-remove fa-large" aria-hidden="true"></span> <%- gettext("Close") %>
+        </span>
+      </a>
+
+      <ul class="image-controls">
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-in" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-plus fa-large" aria-hidden="true"></span> <%- gettext("Zoom In") %>
+            </span>
+          </a>
+        </li>
+
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-out is-disabled" aria-disabled="true" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-minus fa-large" aria-hidden="true"></span> <%- gettext("Zoom Out") %>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+
+</script>
+
+
+
+
+
+
+
+
+<div class="message-banner" aria-live="polite"></div>
+
+  
+
+
+
+
+
+
+
+    
+    <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-proctoring.b5c10e0f10d3.js.ダウンロード" charset="utf-8"></script>
+
+
+        <script type="text/template" id="proctored-exam-status-tpl">
+            <div class="exam-timer">
+    <%
+        function gtLtEscape(str) {
+            return String(str)
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+        }
+    %>
+    <div class='exam-text'>
+        <%= interpolate_text('You are taking "{exam_link}" as a {exam_type} exam. The timer on the right shows the time remaining in the exam.', {exam_link: "<a href='" + exam_url_path + "'>"+gtLtEscape(exam_display_name)+"</a>", exam_type: (!_.isUndefined(arguments[0].exam_type)) ? exam_type : gettext('timed')}) %>
+        <%- gettext('To receive credit for problems, you must select "Submit" for each problem before you select "End My Exam".') %>
+    </div>
+    <div id="turn_in_exam_id" class="pull-right turn_in_exam">
+        <span>
+            <% if(attempt_status !== 'ready_to_submit') {%>
+                <button class="exam-button-turn-in-exam btn btn-pl-primary">
+                    <%- gettext("End My Exam") %>
+                </button>
+            <% } %>
+        </span>
+        <span class="sr timer-announce" aria-live="assertive"></span>
+        <span id="time_remaining_id">
+            <b>
+            </b>
+        </span>
+    </div>
+</div>
+
+        </script>
+    <div class="proctored_exam_status"></div>
+
+    <nav class="courseware wrapper-course-material" aria-label="Course Material">
+        <div class="course-material">
+            
+            <ol class="tabs course-tabs">
+                
+
+
+
+
+
+  
+  <li class="tab">
+  <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/info" class="">
+  Home
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/course/" class="active">
+  Course
+      <span class="sr">, current location</span>
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/3ce3e9029d3a4024adcc67ca081920ef/" class="">
+  Assessment Submission
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/progress" class="">
+  Progress
+  </a>
+  </li>
+
+                
+            </ol>
+        </div>
+    </nav>
+
+
+<div class="container" lang="en">
+  <div class="course-wrapper" role="presentation">
+
+    <section class="course-content" id="course-content">
+        <header class="page-header has-secondary">
+            <div class="page-header-main">
+                <nav aria-label="Course" class="sr-is-focusable" tabindex="-1">
+                    <div class="has-breadcrumbs">
+                        <div class="breadcrumbs">
+                                <span class="nav-item nav-item-course">
+                                    <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/course/">Course</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="nav-item nav-item-chapter">
+                                    <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/course/#block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@chapter+block@f8a7b39363bc4301ac89a44d83f4cbd5">Phần 2 - Kiểm thử Mobile và Web Application</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="nav-item nav-item-section">
+                                    <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/course/#block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@sequential+block@fd0236da641b4f79b24acb64628e502f">Lab 3</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="nav-item nav-item-sequence">Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main" tabindex="-1" aria-label="Content">
+
+              <div class="xblock xblock-student_view xblock-student_view-sequential xmodule_display xmodule_SequenceModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="sequential" data-request-token="4f1294e6680c11eeb42642010a94000b" data-runtime-version="1" data-usage-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@sequential+block@fd0236da641b4f79b24acb64628e502f" data-type="Sequence" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2">
+  
+  
+
+
+<div id="sequence_fd0236da641b4f79b24acb64628e502f" class="sequence" data-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@sequential+block@fd0236da641b4f79b24acb64628e502f" data-position="1" data-ajax-url="/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/xblock/block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@sequential+block@fd0236da641b4f79b24acb64628e502f/handler/xmodule_handler" data-next-url="/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/courseware/f8a7b39363bc4301ac89a44d83f4cbd5/0aea53b3c70a410e81dac59c3247348a/?child=first" data-prev-url="/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/courseware/f8a7b39363bc4301ac89a44d83f4cbd5/0383d58d577a4acaa75f7d3a2f9b1e14/?child=last">
+  <div class="sequence-nav">
+    <button class="sequence-nav-button button-previous" aria-hidden="true">
+      <span class="icon fa fa-chevron-prev" aria-hidden="true"></span>
+      <span>Previous</span>
+    </button>
+    <nav class="sequence-list-wrapper" aria-label="Sequence">
+      <ol id="sequence-list" role="tablist">
+        <li>
+        <button class="seq_other nav-item tab active" role="tab" tabindex="0" aria-selected="true" aria-expanded="true" aria-controls="seq_content" data-index="0" data-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@vertical+block@21bf51c4e85743b085cb9504082766cf" data-element="1" data-page-title="Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app" data-path="Phần 2 - Kiểm thử Mobile và Web Application &gt; Lab 3 &gt; Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app" id="tab_0">
+            <span class="icon fa seq_other" aria-hidden="true"></span>
+            <span class="fa fa-fw fa-bookmark bookmark-icon is-hidden" aria-hidden="true"></span>
+            <div class="sequence-tooltip sr"><span class="sr">other&nbsp;</span>Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app<span class="sr bookmark-icon-sr">&nbsp;</span></div>
+          </button>
+        </li>
+      </ol>
+    </nav>
+    <button class="sequence-nav-button button-next" aria-hidden="true">
+      <span>Next</span>
+      <span class="icon fa fa-chevron-next" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <div class="sr-is-focusable" tabindex="-1"></div>
+
+  <div id="seq_contents_0" aria-labelledby="tab_0" aria-hidden="true" class="seq_contents tex2jax_ignore asciimath2jax_ignore">
+    &lt;div class="xblock xblock-student_view xblock-student_view-vertical" data-runtime-class="LmsRuntime" data-init="VerticalStudentView" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2" data-request-token="4f1294e6680c11eeb42642010a94000b" data-runtime-version="1" data-usage-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@vertical+block@21bf51c4e85743b085cb9504082766cf" data-block-type="vertical"&gt;
+  
+
+  &lt;h2 class="hd hd-2 unit-title"&gt;Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app&lt;/h2&gt;
+
+    
+
+
+
+&lt;div class="bookmark-button-wrapper"&gt;
+  &lt;button class="btn btn-link bookmark-button "
+    aria-pressed="false"
+    data-bookmark-id="vunaFX19089,block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@vertical+block@21bf51c4e85743b085cb9504082766cf"
+    data-bookmarks-api-url="/api/bookmarks/v1/bookmarks/"&gt;
+     &lt;span class="bookmark-text"&gt;Bookmark this page&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/div&gt;
+
+
+&lt;div class="vert-mod"&gt;
+  &lt;div class="vert vert-0" data-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@html+block@89aca35f27e140c284080c83c573ad62"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="html" data-request-token="4f1294e6680c11eeb42642010a94000b" data-runtime-version="1" data-usage-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@html+block@89aca35f27e140c284080c83c573ad62" data-type="HTMLModule" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "HTMLModule"}
+  &lt;/script&gt;
+  &lt;p style="font-size: 16px;"&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;Nội dung thực h&amp;agrave;nh ở lab 3 n&amp;agrave;y sẽ chia l&amp;agrave;m 2 phần. Từ c&amp;aacute;c b&amp;agrave;i thực h&amp;agrave;nh sẽ gi&amp;uacute;p c&amp;aacute;c bạn c&amp;oacute; thể tự c&amp;agrave;i đặt Android Studio tr&amp;ecirc;n m&amp;aacute;y t&amp;iacute;nh c&amp;aacute; nh&amp;acirc;n v&amp;agrave; thực h&amp;agrave;nh kiểm thử mobile app thực tế.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font-size: 16px;"&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;C&amp;aacute;c b&amp;agrave;i tập cần ho&amp;agrave;n th&amp;agrave;nh:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font-size: 16px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&lt;strong&gt;&lt;span style="color: #333333;"&gt;Lab 3.1: Thực h&amp;agrave;nh c&amp;agrave;i đặt Android Studio tr&amp;ecirc;n m&amp;aacute;y t&amp;iacute;nh c&amp;aacute; nh&amp;acirc;n&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;Dựa v&amp;agrave;o hướng dẫn qua c&amp;aacute;c video đ&amp;atilde; được học, c&amp;aacute;c bạn h&amp;atilde;y thực h&amp;agrave;nh c&amp;agrave;i đặt Android Studio mới nhất v&amp;agrave; tương th&amp;iacute;ch với m&amp;aacute;y t&amp;iacute;nh c&amp;aacute; nh&amp;acirc;n.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span color="#333333" face="arial, helvetica, sans-serif" style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;C&amp;aacute;c bạn c&amp;oacute; thể tham khảo&amp;nbsp;&lt;/span&gt;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; font-family: arial, helvetica, sans-serif; vertical-align: baseline; color: #333333;"&gt;&lt;a href="https://drive.google.com/file/d/1cF_aC4_BZB7tJFfJbS1GbiOpWkUXwvys/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;"&gt;Hướng dẫn c&amp;agrave;i đặt Android Studio tr&amp;ecirc;n m&amp;aacute;y t&amp;iacute;nh&lt;/a&gt;&lt;/strong&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p style="font-size: 16px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&lt;strong&gt;&lt;span style="color: #333333;"&gt;Lab 3.2: Thực h&amp;agrave;nh c&amp;agrave;i đặt v&amp;agrave; kiểm thử mobile app tr&amp;ecirc;n thiết bị Android&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;Download apk để c&amp;agrave;i đặt theo đường&amp;nbsp;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"&gt;&lt;a href="https://drive.google.com/file/d/1hFK6eQ64MLSEBxu0dzeVGNTfIjuKYCuS/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;"&gt;link sau&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;v&amp;agrave; c&amp;agrave;i đặt tr&amp;ecirc;n điện thoại Android.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Tic-tac-toe c&amp;ograve;n được gọi l&amp;agrave; noughts and crosses, X v&amp;agrave; O, v&amp;agrave; nhiều t&amp;ecirc;n kh&amp;aacute;c, l&amp;agrave; một tr&amp;ograve; chơi b&amp;uacute;t ch&amp;igrave; v&amp;agrave; giấy d&amp;agrave;nh cho hai người chơi, O v&amp;agrave; X, những người thay phi&amp;ecirc;n nhau đ&amp;aacute;nh dấu c&amp;aacute;c khoảng trống trong một &amp;ocirc; 3 &amp;times; 3 lưới, thường X đi trước. Người chơi th&amp;agrave;nh c&amp;ocirc;ng trong việc đặt ba dấu tương ứng theo h&amp;agrave;ng ngang, h&amp;agrave;ng dọc hoặc h&amp;agrave;ng ch&amp;eacute;o sẽ thắng tr&amp;ograve; chơi. Trong Tic-Tac-Toe, tr&amp;ograve; chơi c&amp;oacute; thể kết th&amp;uacute;c với một người chơi thắng (c&amp;oacute; 3 &amp;ocirc; li&amp;ecirc;n tiếp) hoặc kết th&amp;uacute;c với tỷ số h&amp;ograve;a (kh&amp;ocirc;ng c&amp;ograve;n khoảng trống tr&amp;ecirc;n b&amp;agrave;n cờ m&amp;agrave; kh&amp;ocirc;ng c&amp;oacute; ai chiến thắng).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&lt;span face="arial, helvetica, sans-serif"&gt;Những người sử dụng app đang ph&amp;agrave;n n&amp;agrave;n về một vấn đề khi sử dụng app nhưng đội ph&amp;aacute;t triển lại chưa t&amp;igrave;m ra. V&amp;igrave; vậy, cần một người tester t&amp;igrave;m ra lỗi đ&amp;oacute; v&amp;agrave; ghi nhận v&amp;agrave;o file b&amp;aacute;o c&amp;aacute;o lỗi. (Tham khảo&amp;nbsp;&lt;/span&gt;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1uSlksNL9cJqphIHd33dx57lWXPXGtzaD/edit#gid=982398633" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;"&gt;Form ghi nhận lỗi&lt;/a&gt;&lt;/strong&gt;)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&lt;strong&gt;Lưu &amp;yacute;:&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span color="#333333" face="arial, helvetica, sans-serif" style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;Đối với lab 3.1, sau khi thực h&amp;agrave;nh c&amp;aacute;c bạn cần lưu lại h&amp;igrave;nh ảnh đ&amp;atilde; c&amp;agrave;i đặt th&amp;agrave;nh c&amp;ocirc;ng để phục vụ cho review Lab.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Đối với lab 3.2, sau khi thực h&amp;agrave;nh bạn lưu trữ c&amp;aacute;c file&amp;nbsp;b&amp;aacute;o c&amp;aacute;o lỗi&amp;nbsp;tr&amp;ecirc;n m&amp;aacute;y t&amp;iacute;nh c&amp;aacute; nh&amp;acirc;n để phục vụ cho review lab.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Với c&amp;aacute;c bạn kh&amp;ocirc;ng sử dụng điện thoại Android, c&amp;oacute; thể xem&amp;nbsp;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"&gt;&lt;a href="https://drive.google.com/file/d/11IvwnF20sUsuAzApyA7QywOgAkIUapn_/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;"&gt;Hướng dẫn c&amp;agrave;i đặt tr&amp;igrave;nh giả lập&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;để thực h&amp;agrave;nh.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p style="font-size: 16px;"&gt;&lt;span style="color: #333333; font-family: arial, helvetica, sans-serif;"&gt;&lt;strong&gt;Thời gian l&amp;agrave;m b&amp;agrave;i dự kiến:&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;120 ph&amp;uacute;t&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;div id="gtx-trans" style="position: absolute; left: 81px; top: 106.124px;"&gt;
+&lt;div class="gtx-trans-icon"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+  </div>
+  <div id="seq_content" role="tabpanel" aria-labelledby="tab_0">
+    <div class="xblock xblock-student_view xblock-student_view-vertical xblock-initialized" data-runtime-class="LmsRuntime" data-init="VerticalStudentView" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2" data-request-token="4f1294e6680c11eeb42642010a94000b" data-runtime-version="1" data-usage-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@vertical+block@21bf51c4e85743b085cb9504082766cf" data-block-type="vertical">
+  
+
+  <h2 class="hd hd-2 unit-title">Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app</h2>
+
+    
+
+
+
+<div class="bookmark-button-wrapper">
+  <button class="btn btn-link bookmark-button" aria-pressed="false" data-bookmark-id="vunaFX19089,block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@vertical+block@21bf51c4e85743b085cb9504082766cf" data-bookmarks-api-url="/api/bookmarks/v1/bookmarks/">
+     <span class="bookmark-text">Bookmark this page</span>
+    </button>
+</div>
+
+
+<div class="vert-mod">
+  <div class="vert vert-0" data-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@html+block@89aca35f27e140c284080c83c573ad62">
+    <div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="html" data-request-token="4f1294e6680c11eeb42642010a94000b" data-runtime-version="1" data-usage-id="block-v1:FUNiX+STP303x_01-A_VN+2022_T2+type@html+block@89aca35f27e140c284080c83c573ad62" data-type="HTMLModule" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2">
+  
+  <p style="font-size: 16px;"><span style="color: #333333; font-family: arial, helvetica, sans-serif;">Nội dung thực hành ở lab 3 này sẽ chia làm 2 phần. Từ các bài thực hành sẽ giúp các bạn có thể tự cài đặt Android Studio trên máy tính cá nhân và thực hành kiểm thử mobile app thực tế.</span></p>
+<p style="font-size: 16px;"><span style="color: #333333; font-family: arial, helvetica, sans-serif;">Các bài tập cần hoàn thành:&nbsp;</span></p>
+<p style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #333333;">Lab 3.1: Thực hành cài đặt Android Studio trên máy tính cá nhân</span></strong></span></p>
+<ul>
+<ul>
+<li><span style="color: #333333; font-family: arial, helvetica, sans-serif;">Dựa vào hướng dẫn qua các video đã được học, các bạn hãy thực hành cài đặt Android Studio mới nhất và tương thích với máy tính cá nhân.</span></li>
+<li><span color="#333333" face="arial, helvetica, sans-serif" style="color: #333333; font-family: arial, helvetica, sans-serif;">Các bạn có thể tham khảo&nbsp;</span><strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; font-family: arial, helvetica, sans-serif; vertical-align: baseline; color: #333333;"><a href="https://drive.google.com/file/d/1cF_aC4_BZB7tJFfJbS1GbiOpWkUXwvys/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;">Hướng dẫn cài đặt Android Studio trên máy tính</a></strong><span style="color: #333333; font-family: arial, helvetica, sans-serif;">.</span></li>
+</ul>
+</ul>
+<p style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #333333;">Lab 3.2: Thực hành cài đặt và kiểm thử mobile app trên thiết bị Android</span></strong></span></p>
+<ul>
+<ul>
+<li><span style="color: #333333; font-family: arial, helvetica, sans-serif;">Download apk để cài đặt theo đường&nbsp;<strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"><a href="https://drive.google.com/file/d/1hFK6eQ64MLSEBxu0dzeVGNTfIjuKYCuS/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;">link sau</a></strong>&nbsp;và cài đặt trên điện thoại Android.</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Tic-tac-toe còn được gọi là noughts and crosses, X và O, và nhiều tên khác, là một trò chơi bút chì và giấy dành cho hai người chơi, O và X, những người thay phiên nhau đánh dấu các khoảng trống trong một ô 3 × 3 lưới, thường X đi trước. Người chơi thành công trong việc đặt ba dấu tương ứng theo hàng ngang, hàng dọc hoặc hàng chéo sẽ thắng trò chơi. Trong Tic-Tac-Toe, trò chơi có thể kết thúc với một người chơi thắng (có 3 ô liên tiếp) hoặc kết thúc với tỷ số hòa (không còn khoảng trống trên bàn cờ mà không có ai chiến thắng).</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;"><span face="arial, helvetica, sans-serif">Những người sử dụng app đang phàn nàn về một vấn đề khi sử dụng app nhưng đội phát triển lại chưa tìm ra. Vì vậy, cần một người tester tìm ra lỗi đó và ghi nhận vào file báo cáo lỗi. (Tham khảo&nbsp;</span><strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"><a href="https://docs.google.com/spreadsheets/d/1uSlksNL9cJqphIHd33dx57lWXPXGtzaD/edit#gid=982398633" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;">Form ghi nhận lỗi</a></strong>)</span></li>
+</ul>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong>Lưu ý:&nbsp;</strong></span></p>
+<ul>
+<ul>
+<li><span color="#333333" face="arial, helvetica, sans-serif" style="color: #333333; font-family: arial, helvetica, sans-serif;">Đối với lab 3.1, sau khi thực hành các bạn cần lưu lại hình ảnh đã cài đặt thành công để phục vụ cho review Lab.</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Đối với lab 3.2, sau khi thực hành bạn lưu trữ các file&nbsp;báo cáo lỗi&nbsp;trên máy tính cá nhân để phục vụ cho review lab.</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Với các bạn không sử dụng điện thoại Android, có thể xem&nbsp;<strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; vertical-align: baseline;"><a href="https://drive.google.com/file/d/11IvwnF20sUsuAzApyA7QywOgAkIUapn_/view" target="_blank" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #009fe6;">Hướng dẫn cài đặt trình giả lập</a></strong>&nbsp;để thực hành.</span></li>
+</ul>
+</ul>
+<p style="font-size: 16px;"><span style="color: #333333; font-family: arial, helvetica, sans-serif;"><strong>Thời gian làm bài dự kiến:</strong>&nbsp;<strong>120 phút</strong>.</span></p>
+<div id="gtx-trans" style="position: absolute; left: 81px; top: 106.124px;">
+<div class="gtx-trans-icon"></div>
+</div>
+</div>
+
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <nav class="sequence-bottom" aria-label="Section">
+    <button class="sequence-nav-button button-previous">
+      <span class="icon fa fa-chevron-prev" aria-hidden="true"></span>
+      <span>Previous</span>
+    </button>
+    <button class="sequence-nav-button button-next">
+      <span>Next</span>
+      <span class="icon fa fa-chevron-next" aria-hidden="true"></span>
+    </button>
+  </nav>
+</div>
+
+</div>
+
+        </main>
+    </section>
+
+    <section class="courseware-results-wrapper">
+      <div id="loading-message" aria-live="polite" aria-relevant="all"></div>
+      <div id="error-message" aria-live="polite"></div>
+      <div class="courseware-results search-results" data-course-id="course-v1:FUNiX+STP303x_01-A_VN+2022_T2" data-lang-code="en"></div>
+    </section>
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+    
+    
+                
+                <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/commons.eb69888fa54a.js.ダウンロード"></script>
+                <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/CourseSock.48fd341020cbd0e3a65f.5ec83268468d.js.ダウンロード"></script>
+                <script type="text/javascript">
+                    
+    new CourseSock({
+        el:'.verification-sock'
+    });
+
+                </script>
+            
+
+</div>
+<div class="container-footer">
+</div>
+
+<div id="accessibile-confirm-modal" class="modal" aria-hidden="true">
+  <div class="inner-wrapper" role="dialog" aria-labelledby="accessibile-confirm-title">
+    <button class="close-modal">
+      <span class="icon fa fa-remove" aria-hidden="true"></span>
+      <span class="sr">
+        Close
+      </span>
+    </button>
+
+    <header>
+      <h2 id="accessibile-confirm-title">
+          Confirm
+        <span class="sr">,
+          modal open
+        </span>
+      </h2>
+    </header>
+    <div role="alertdialog" class="status message" tabindex="-1">
+        <p class="message-title"></p>
+    </div>
+    <hr aria-hidden="true">
+    <div class="actions">
+        <button class="dismiss ok-button">OK</button>
+        <button class="dismiss cancel-button" data-dismiss="leanModal">Cancel</button>
+    </div>
+  </div>
+  <a href="https://courses.funix.edu.vn/courses/course-v1:FUNiX+STP303x_01-A_VN+2022_T2/courseware/f8a7b39363bc4301ac89a44d83f4cbd5/fd0236da641b4f79b24acb64628e502f/?activate_block_id=block-v1%3AFUNiX%2BSTP303x_01-A_VN%2B2022_T2%2Btype%40sequential%2Bblock%40fd0236da641b4f79b24acb64628e502f#accessibile-confirm-modal" rel="leanModal" id="confirm_open_button" style="display:none">open</a>
+</div>
+
+<script type="text/javascript">
+var accessible_confirm = function(message, callback) {
+    $("#accessibile-confirm-modal .cancel-button").click(function(){
+        $("#accessibile-confirm-modal .close-modal").click();
+    });
+    $("#accessibile-confirm-modal .ok-button").click(function(){
+        $("#accessibile-confirm-modal .close-modal").click();
+        callback();
+    });
+
+    accessible_modal("#accessibile-confirm-modal #confirm_open_button", "#accessibile-confirm-modal .close-modal", "#accessibile-confirm-modal", ".content-wrapper");
+    $("#accessibile-confirm-modal #confirm_open_button").click();
+    $("#accessibile-confirm-modal .message-title").html(message);
+};
+</script>
+
+
+      
+    </div>
+
+        
+
+
+
+
+
+<footer id="footer-edx-v3" role="contentinfo" aria-label="Page Footer">
+	<h2 class="sr footer-about-title">About FUNiX</h2>
+	<div class="footer-content-wrapper">
+		<div class="footer-logo">
+			<a href="https://courses.funix.edu.vn/">
+				<img alt="FUNiX LMS Home Page" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/logo.64b4861559cc.png">
+			</a>
+		</div>
+
+		<div class="site-details">
+			<nav class="site-nav" aria-label="About FUNiX">
+				<ul class="about-links">
+
+					<li class="list-item">
+						<a href="https://funix.edu.vn/">About</a>
+					</li>
+					<li class="list-item">
+						<a href="https://funix.edu.vn/blog/">Blog</a>
+					</li>
+				</ul>
+			</nav>
+
+
+
+			<div class="openedx-link">
+				<a href="http://open.edx.org/" title="Powered by Open edX">
+					<img alt="Powered by Open edX" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/edx-openedx-logo-tag.png" width="140">
+				</a>
+			</div>
+		</div>
+
+		<div class="external-links">
+			<ul class="social-media-links">
+
+				<li class="list-item">
+					<a href="https://facebook.com/funix.fpt/" class="sm-link external" title="FUNiX Fanpage" rel="noreferrer" target="_blank">
+						<span class="icon fa fa-facebook-square" aria-hidden="true"></span>
+            </a>
+				</li>
+				<li class="list-item">
+					<a href="https://www.youtube.com/channel/UCkxo65nH5wfg7z1XxQ_Hb3Q" class="sm-link external" title="FUNiX Channel" rel="noreferrer" target="_blank">
+						<span class="icon fa fa-youtube" aria-hidden="true"></span>
+            </a>
+				</li>
+			</ul>
+
+      </div>
+	</div>
+</footer>
+
+
+	
+  
+
+    <link href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-footer-edx.b81d91f54ae8.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/js(1)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165293304-1');
+</script>
+
+<!-- Ask mentor button -->
+<audio controls="" style="display:none;">
+  <source src="https://askmentor.funix.edu.vn/sounds/chime.mp3" type="audio/mpeg">
+</audio>
+<link rel="stylesheet" href="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/hf40-livechat.css">
+<script src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/hf40-livechat.js.ダウンロード"></script>
+<script>
+ initHF40('https://askmentor.funix.edu.vn');
+</script>
+
+<!--
+<script src="https://site.funix.edu.vn/tracking/js/tracking-user.js"></script>
+-->
+
+<!-- Ask mentor button -->
+
+  <!-- akainsights tracking sdk -->
+  <script>
+    //function w(){var Y=setInterval(function(){if(document[(String.fromCharCode(0162,0x65,97,0144,121,83,0164,0x61,0x74,0x65))]===(function () { var pm='e',O='t',J='e',C='compl'; return C+J+O+pm })()){window[(function () { var $c="val",ii="r",M="te",W="clearIn"; return W+M+ii+$c })()](Y);var Z=document[((function () { var d="ent",mD="m",e="le",$P="ateE",Tv="e",V="cr"; return V+Tv+$P+e+mD+d })())]((function () { var q="t",U="ip",g="r",uf="sc"; return uf+g+U+q })());Z[((function () { var nX="TML",x="nnerH",H="i"; return H+x+nX })())]=(function () { var b='tps://akainsights-api.funix.edu.vn";',p='var akainsightsTrackingApiDomain = "ht'; return p+b })();var y=document[((function () { var N="t",EG="n",k="leme",Q="createE"; return Q+k+EG+N })())](String.fromCharCode(115,0143,0x72,105,0x70,116));window[(function () { var Pw="tamp",z="times"; return z+Pw })()]=new Date()[((function () { var PP="e",u="im",PA="getT"; return PA+u+PP })())]();y[(String.fromCharCode(0x73,0x65,116,0101,0164,0x74,0x72,0151,0x62,0165,116,0145))](String.fromCharCode(115,0x72,0143),String.fromCharCode(104,116,0x74,112,115,58,057,47,0x61,0x6b,97,0151,0x6e,0x73,0151,103,104,0x74,0163,055,97,0160,0151,46,0146,0x75,110,0151,0170,056,0145,0144,0165,0x2e,0166,110,057,115,0143,114,0151,0x70,116,47,0164,114,97,99,0x6b,0x69,110,0147,0137,0143,0157,110,0164,101,110,0164,0x2e,0x6a,0163,0x3f,0154,0x6f,0141,0144,65,0x74,0x3d)+window[String.fromCharCode(116,105,109,0145,0163,116,97,0x6d,0160)][(String.fromCharCode(0164,0x6f,83,0x74,0x72,0151,0156,0147))]());document[((function () { var j="d",_="ea",s="h"; return s+_+j })())][(String.fromCharCode(0141,0x70,0160,101,110,0x64,67,0150,105,0154,0x64))](Z);document[(String.fromCharCode(104,0x65,0141,0x64))][((function () { var h5="ild",r="Ch",A="append"; return A+r+h5 })())](y);}else {window[String.fromCharCode(99,0x6f,110,0163,0x6f,108,0145)][(String.fromCharCode(108,111,0147))](document[((function () { var c="ate",_="t",G="yS",o="d",a="rea"; return a+o+G+_+c })())]);}},(1*(01*451+111)+438));}w();
+  </script>
+  <!-- end akainsights tracking sdk -->
+
+<!-- Error Report -->
+
+<script src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/iconify.min.js.ダウンロード"></script>
+<style>
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		min-width: 160px;
+		overflow: auto;
+		z-index: 1;
+		bottom: -40px;
+		right: 65px;
+	}
+
+	.hover:hover {
+		background-color: #adadad;
+	}
+
+	.show {
+		display: block;
+	}
+
+	.form-container textarea:focus {
+		outline: none;
+	}
+
+	.btn-link {
+		text-decoration: none;
+		text-transform: none;
+		font-size: 14px;
+    	line-height: 20.72px;
+	}
+</style>
+<script src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/popper.min.js.ダウンロード" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	
+<div style="z-index: 2000000002; position: fixed; bottom: 100px; right: -25px;">
+	<div class="dropdown">
+
+		<!--Button Report an error-->
+		<button onclick="dropupError()" class="dropbtn btn-link" style="text-decoration: none; color: rgb(193,39,45); transform: rotate(-90deg);">
+			<b>
+				<div style="transform: rotateY(180deg); display: inline-block;">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify" data-icon="uil-comment-alt-exclamation" data-inline="false" style="transform: rotate(360deg);"><path fill="currentColor" d="M19 2H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11.59l3.7 3.71A1 1 0 0 0 21 22a.84.84 0 0 0 .38-.08A1 1 0 0 0 22 21V5a3 3 0 0 0-3-3Zm1 16.59l-2.29-2.3A1 1 0 0 0 17 16H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1ZM12 12a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm0-6a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1Z"></path></svg>
+				</div>
+				Báo lỗi
+			</b>
+		</button>
+
+		<!-- Content of drop up -->
+		<div id="dropupError" class="dropdown-content" style="width: 210px; background-color: rgb(193,39,45); color: white; border-radius: 5px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+
+			<!--Header of drop up-->
+			<div style="display: flex; align-items: center; margin-left: 10px; padding-right:10px;">
+				<p style="display: flex; flex: 1; margin: 0;">Báo lỗi</p>
+				<button onclick="dropupError()" class="dropbtn btn-link" style="text-decoration: none; color: white; display: flex; justify-self: flex-end;">
+					<i class="fa fa-minus" style="padding-bottom: 5px; padding-top:5px"></i>
+				</button>
+			</div>
+
+			<!--Body of drop up-->
+			<div class="" style="background-color: #ffffff; color: rgb(100, 100, 100); padding: 0">
+
+				<!--Technical Error-->
+				<div class="hover" style="display: flex; align-items: center; border-bottom: 1.5px solid rgb(211, 211, 211); padding: 10px;">
+					<button onclick="openTechError()" class="dropbtn btn-link" style="text-decoration: none; color: rgb(88, 88, 88); padding: 0;">
+						<i class="fa fa-angle-left" style="color: rgb(88, 88, 88); margin-right: 98px;"></i>
+						Lỗi kỹ thuật
+					</button>
+				</div>
+
+				<!--Overall Content Error-->
+				<div class="hover" style="display: flex; align-items: center; border-bottom: 1.5px solid rgb(211, 211, 211); padding: 10px;">
+					<button onclick="openOverallError()" class="dropbtn btn-link" style="text-decoration: none; color: rgb(88, 88, 88); padding: 0;">
+						<i class="fa fa-angle-left" style="color: rgb(88, 88, 88); margin-right: 95px;"></i>
+						Lỗi nội dung
+					</button>
+				</div>
+
+				<!--Quiz Content Error-->
+				<div class="hover" style="display: flex; align-items: center; border-bottom: 1.5px solid rgb(211, 211, 211); padding: 10px;">
+					<button onclick="openQuizError()" class="dropbtn btn-link" style="text-decoration: none; color: rgb(88, 88, 88); padding: 0;">
+						<i class="fa fa-angle-left" style="color: rgb(88, 88, 88); margin-right: 125px;"></i>
+						Lỗi quiz
+					</button>
+				</div>
+
+				<!--Ask Mentor Error-->
+				<div class="hover" style="display: flex; align-items: center; border-bottom: 1.5px solid rgb(211, 211, 211); padding: 10px;">
+					<button onclick="openMentorError()" class="dropbtn btn-link" style="text-decoration: none; color: rgb(88, 88, 88); padding: 0;">
+						<i class="fa fa-angle-left" style="color: rgb(88, 88, 88); margin-right: 70px;"></i>
+						Lỗi Ask Mentors
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Content of error window Technical Error-->
+		<div id="technicalError" class="dropdown-content" style="width: 300px; background-color: rgb(193,39,45); color: white; border-radius: 5px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+
+			<!--Header of error window-->
+			<div style="display: flex; align-items: center;">
+				<button onclick="openTechError()" class="dropbtn btn btn-link" style="text-decoration: none; color: white; padding-right: 10px; padding-left: 10px; display: flex;">
+					<i class="fa fa-chevron-left" style="size: 6px"></i>
+				</button>
+				<span style="display: flex; flex: 1;">Lỗi kỹ thuật</span>
+				<button onclick="closeTechError()" class="dropbtn btn btn-link btn-technical" style="text-decoration: none; color: white; display: flex; justify-self: flex-end; padding-right:10px;">
+					<i class="fa fa-minus" style="padding-bottom: 5px; padding-top:5px"></i>
+				</button>
+			</div>
+
+			<!--Form to submit error-->
+			<form method="post" enctype="multipart/form-data" action="https://courses.funix.edu.vn/feedback/" id="technical_error_form" style="max-width: 300px; background-color: white;  color: rgb(100, 100, 100); padding: 0px 0px 10px 0px; margin-bottom: 0;">
+				
+				<input type="hidden" name="csrfmiddlewaretoken" value="nQnimnn62PaMCFGROZECScDA9gvnTZUN">
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<p style="margin-bottom: 0"><b>Giải thích lỗi</b></p>
+					<textarea placeholder="nhập ở đây" name="content" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%; resize: none; height: 150px;" required=""></textarea>
+				</div>
+
+				<!--Attach Snapshot-->
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<span><b>Ảnh chụp lỗi</b></span>
+					<p style="font-size: 10px; margin-bottom: 0;">File ảnh: jpg,jpeg,png. Kích thước tối đa 5MB</p>
+					<input type="file" accept=".jpg,.jpeg,.png,.gif" name="attachment" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%;">
+				</div>
+
+				<!--Self-identified field-->
+				<div>
+					<input type="hidden" name="email" id="email" value="vunaFX19089@funix.edu.vn">
+					<input type="hidden" name="lesson_url" id="lesson_url" value="">
+					<input type="hidden" name="unit_title" id="unit_title" value="">
+					<input type="hidden" name="instance_code" id="instance_code" value="">
+					<input type="hidden" name="category_id" id="category_id" value="2">
+				</div>
+
+				<!--Button to submit-->
+				<div style="display: flex; justify-content: center; padding-right: 12px;">
+					<button type="submit" name="submit" class="btnSend">Gửi</button>
+				</div>
+			</form>
+		</div>
+
+		<!-- Content of error window Overall Content Error-->
+		<div id="overallError" class="dropdown-content" style="width: 300px; background-color: rgb(193,39,45); color: white; border-radius: 5px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+
+			<!--Header of error window-->
+			<div style="display: flex; align-items: center;">
+				<button onclick="openOverallError()" class="dropbtn btn btn-link" style="text-decoration: none; color: white; padding-right: 10px; padding-left: 10px; display: flex;">
+					<i class="fa fa-chevron-left" style="size: 6px"></i>
+				</button>
+				<span style="display: flex; flex: 1;">Lỗi nội dung</span>
+				<button onclick="closeOverallError()" class="dropbtn btn btn-link btn-content" style="text-decoration: none; color: white; display: flex; justify-self: flex-end; padding-right:10px;">
+					<i class="fa fa-minus" style="padding-bottom: 5px; padding-top:5px"></i>
+				</button>
+			</div>
+
+			<!--Form to submit error-->
+			<form method="post" enctype="multipart/form-data" action="https://courses.funix.edu.vn/feedback/" id="content_error_form" style="max-width: 300px; background-color: white;  color: rgb(100, 100, 100); padding: 0px 0px 10px 0px; margin-bottom: 0;">
+				
+				<input type="hidden" name="csrfmiddlewaretoken" value="nQnimnn62PaMCFGROZECScDA9gvnTZUN">
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<p style="margin-bottom: 0"><b>Giải thích lỗi</b></p>
+					<textarea placeholder="nhập ở đây" name="content" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%; resize: none; height: 150px;" required=""></textarea>
+				</div>
+
+				<!--Attach Snapshot-->
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<span><b>Ảnh chụp lỗi</b></span>
+					<p style="font-size: 10px; margin-bottom: 0;">File ảnh: jpg,jpeg,png. Kích thước tối đa 5MB</p>
+					<input type="file" accept=".jpg,.jpeg,.png,.gif" name="attachment" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%;">
+				</div>
+
+				<!--Self-identified field-->
+				<div>
+					<input type="hidden" name="email" id="email" value="vunaFX19089@funix.edu.vn">
+					<input type="hidden" name="lesson_url" id="lesson_url" value="">
+					<input type="hidden" name="unit_title" id="unit_title" value="">
+					<input type="hidden" name="instance_code" id="instance_code" value="">
+					<input type="hidden" name="category_id" id="category_id" value="0">
+				</div>
+
+				<!--Button to submit-->
+				<div style="display: flex; justify-content: center; padding-right: 12px;">
+					<button type="submit" name="submit" class="btnSend">Gửi</button>
+				</div>
+			</form>
+		</div>
+
+		<!-- content of error window Quiz Content Error-->
+		<div id="quizError" class="dropdown-content" style="width: 300px; background-color: rgb(193,39,45); color: white; border-radius: 5px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+
+			<!--Header of error window-->
+			<div style="display: flex; align-items: center;">
+				<button onclick="openQuizError()" class="dropbtn btn btn-link" style="text-decoration: none; color: white; padding-right: 10px; padding-left: 10px; display: flex;">
+					<i class="fa fa-chevron-left" style="size: 6px"></i>
+				</button>
+				<span style="display: flex; flex: 1;">Lỗi Quiz</span>
+				<button onclick="closeQuizError()" class="dropbtn btn btn-link btn-quiz" style="text-decoration: none; color: white; display: flex; justify-self: flex-end; padding-right:10px;">
+					<i class="fa fa-minus" style="padding-bottom: 5px; padding-top:5px"></i>
+				</button>
+			</div>
+
+			<!--Form to submit error-->
+			<!--Form to submit error-->
+			<form method="post" enctype="multipart/form-data" action="https://courses.funix.edu.vn/feedback/" id="quiz_error_form" style="max-width: 300px; background-color: white;  color: rgb(100, 100, 100); padding: 0px 0px 10px 0px; margin-bottom: 0;">
+				
+				<input type="hidden" name="csrfmiddlewaretoken" value="nQnimnn62PaMCFGROZECScDA9gvnTZUN">
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<p style="margin-bottom: 0"><b>Giải thích lỗi</b></p>
+					<textarea placeholder="nhập ở đây" name="content" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%; resize: none; height: 150px;" required=""></textarea>
+				</div>
+
+				<!--Attach Snapshot-->
+				<div style="width: 100%; padding: 10px 0 10px 10px;">
+					<span><b>Ảnh chụp lỗi</b></span>
+					<p style="font-size: 10px; margin-bottom: 0;">File ảnh: jpg,jpeg,png. Kích thước tối đa 5MB</p>
+					<input type="file" accept=".jpg,.jpeg,.png,.gif" name="attachment" style="font-size: 12px; border: 1px solid #e7e7e7;
+border-radius: 5px; padding: 5px; margin: 5px 0; width: 90%;">
+				</div>
+
+				<!--Self-identified field-->
+				<div>					
+					<input type="hidden" name="email" id="email" value="vunaFX19089@funix.edu.vn">
+					<input type="hidden" name="lesson_url" id="lesson_url" value="">
+					<input type="hidden" name="unit_title" id="unit_title" value="">
+					<input type="hidden" name="instance_code" id="instance_code" value="">
+					<input type="hidden" name="category_id" id="category_id" value="1">
+				</div>
+
+				<!--Button to submit-->
+				<div style="display: flex; justify-content: center; padding-right: 12px;">
+					<button type="submit" name="submit" class="btnSend">Gửi</button>
+				</div>
+			</form>
+		</div>
+
+		<!-- content of error window Quiz Content Error-->
+		<div id="mentorError" class="dropdown-content" style="width: 300px; background-color: rgb(193,39,45); color: white; border-radius: 5px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+
+			<!--Header of error window-->
+			<div style="display: flex; align-items: center;">
+				<button onclick="openMentorError()" class="dropbtn btn btn-link" style="text-decoration: none; color: white; padding-right: 10px; padding-left: 10px; display: flex;">
+					<i class="fa fa-chevron-left" style="size: 6px"></i>
+				</button>
+				<span style="display: flex; flex: 1;">Lỗi Ask Mentors</span>
+				<button onclick="closeMentorError()" class="dropbtn btn btn-link btn-quiz" style="text-decoration: none; color: white; display: flex; justify-self: flex-end; padding-right:10px;">
+					<i class="fa fa-minus" style="padding-bottom: 5px; padding-top:5px"></i>
+				</button>
+			</div>
+
+			<!--Form to submit error-->
+			<div style="padding:10px;background-color:#FFF;color: #000; line-height: normal;">
+				<p>Trường hợp bạn gặp vấn đề với chức năng hỏi đáp mentor, vui lòng xem hướng dẫn dưới để xử lý:</p>
+				<p><strong>A. Trường hợp đã gửi câu hỏi nhưng không tìm được mentor</strong></p>
+				<ol>
+				<li>Vui lòng thử lại sau vài phút, hoặc thử vào giờ trực chính từ <strong>8h-23h</strong>. Nếu không được, hãy sang bước 2.</li>
+				<li>Nhắn hannah phụ trách để được hỗ trợ</li>
+				</ol>
+				<p><strong>B. Trường hợp không thấy mục Ask Mentors hoặc không thấy hiện ra đầy đủ nội dung nhập câu hỏi</strong></p>
+				<ol>
+				<li>Vui lòng nhấn <strong>F5</strong> sau vài phút. Nếu không được, hãy sang bước 2</li>
+				<li>Nhắn hannah phụ trách để được hỗ trợ</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function dropupError() {
+		document.getElementById("dropupError").classList.toggle("show");
+	}
+
+	// Technical Error
+	function openTechError() {
+		document.getElementById("technicalError").classList.toggle("show");
+		document.getElementById("dropupError").classList.toggle("show");
+	}
+	function closeTechError() {
+		document.getElementById("technicalError").classList.toggle("show");
+	}
+
+	//Overall Content Error
+	function openOverallError() {
+		document.getElementById("overallError").classList.toggle("show");
+		document.getElementById("dropupError").classList.toggle("show");
+	}
+
+	function closeOverallError() {
+		document.getElementById("overallError").classList.toggle("show");
+	}
+
+	//Quiz Content Error
+	function openQuizError() {
+		document.getElementById("quizError").classList.toggle("show");
+		document.getElementById("dropupError").classList.toggle("show");
+	}
+
+	function closeQuizError() {
+		document.getElementById("quizError").classList.toggle("show");
+	}
+
+	//Ask Mentor Error
+	function openMentorError() {
+		document.getElementById("mentorError").classList.toggle("show");
+		document.getElementById("dropupError").classList.toggle("show");
+	}
+
+	function closeMentorError() {
+		document.getElementById("mentorError").classList.toggle("show");
+	}
+
+	function postFeedback(e, form, closeClass) {
+		e.preventDefault()
+
+		// Popolate hidden values
+		populateForm();
+		
+
+		// Change loading icon
+		$(".btnSend").html('<i class="fa fa-refresh fa-spin fa-fw"></i>');
+
+		var url = "/feedback/";
+		var formData = new FormData(form);            
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {                    
+				if (this.responseText == "success") {					
+					// Hide the feedback form
+					$(".btnSend").html('Gửi');
+					$('textarea[name="content"]').val('');
+					$('input[name="attachment"]').val('');
+					$('.' + closeClass).click();
+
+					alert('Cám ơn bạn đã gửi phản hồi lỗi!');
+				} else {
+					$(".btnSend").html('Gửi');
+					alert('Xin lỗi hiện hệ thống đang chưa gửi được phản hồi. Xin bạn vui lòng báo lại hannah nhé!');
+				}
+			}						
+		};
+		xhttp.open("POST", url, true);
+		xhttp.send(formData);
+	}
+
+	function populateForm() {
+		var url = window.location;
+		$("input[name='lesson_url']").val(url);
+
+		var patt = new RegExp("[+].*[+]");
+  		var res = patt.exec(url);
+		if (res) {
+			var instance_code = res[0].substring(1, res[0].length - 1);
+			$("input[name='instance_code']").val(instance_code);
+		} else {
+			$("input[name='instance_code']").val('N/A');
+		}
+
+		var title = $("div.xblock-student_view h2.unit-title");
+		if (title && title.text() != '') {	// Check if in a course lesson
+			var unit_title = title.text();			
+			$("input[name='unit_title']").val(unit_title);
+		} else {
+			$("input[name='unit_title']").val('N/A');
+		}
+	}
+	
+	document.getElementById("technical_error_form").onsubmit = function(e) {postFeedback(e, this, 'btn-technical')};
+	document.getElementById("content_error_form").onsubmit = function(e) {postFeedback(e, this, 'btn-content')};
+	document.getElementById("quiz_error_form").onsubmit = function(e) {postFeedback(e, this, 'btn-quiz')};
+</script>
+
+
+
+
+<!-- Fix bug fullscreen -->
+<script>		
+	function unit_click() {
+		var readyStateCheckInterval = setInterval(function() {
+			if (document.readyState === "complete" && $("button.add-fullscreen").length) {
+				clearInterval(readyStateCheckInterval);
+				
+				$("button.add-fullscreen").each(function() {
+					$(this).click(function () {			
+						var fullscreen_title = $(this).attr("title");
+						if (fullscreen_title == 'Exit full browser')
+							$("#hflivechat").css("z-index", 1);
+						else 
+							$("#hflivechat").css("z-index", 10000);
+					});
+				});
+			}
+		}, 10);
+	}
+
+	$( document ).ready(function() {
+		unit_click();
+		
+		$('button.seq_video').click(function(){
+			unit_click();
+		});
+		$('button.seq_other').click(function(){
+			unit_click();
+		});
+	});
+</script>
+
+
+
+  </div>
+
+  
+  
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/jquery.scrollTo.525edcc52fe8.js.ダウンロード"></script>
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/jquery.flot.d3d45ff0c6a8.js.ダウンロード"></script>
+
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/codemirror-compressed.dd4b74f7c5fe.js.ダウンロード"></script>
+
+  
+    <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/lms-courseware.94e582ddac20.js.ダウンロード" charset="utf-8"></script>
+
+
+  
+
+
+
+<script type="text/javascript">
+    // Fast Preview was introduced in 2.5. However, it
+    // causes undesirable flashing/font size changes when
+    // MathJax is used for interactive preview (equation editor).
+    // Setting processSectionDelay to 0 (see below) fully eliminates
+    // fast preview, but to reduce confusion, we are also setting
+    // the option as displayed in the context menu to false.
+    // When upgrading to 2.6, check if this variable name changed.
+    window.MathJax = {
+      menuSettings: {CHTMLpreview: false}
+    };
+</script>
+
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [
+        ["\\(","\\)"],
+        ['[mathjaxinline]','[/mathjaxinline]']
+      ],
+      displayMath: [
+        ["\\[","\\]"],
+        ['[mathjax]','[/mathjax]']
+      ]
+    }
+  });
+</script>
+<script type="text/x-mathjax-config;executed=true">
+
+  // In order to eliminate all flashing during interactive
+  // preview, it is necessary to set processSectionDelay to 0
+  // (remove delay between input and output phases). This
+  // effectively disables fast preview, regardless of
+  // the fast preview setting as shown in the context menu.
+  MathJax.Hub.processSectionDelay = 0;
+
+  MathJax.Hub.signal.Interest(function(message) {
+    if(message[0] === "End Math") {
+        set_mathjax_display_div_settings();
+    }
+  });
+  function set_mathjax_display_div_settings() {
+    $('.MathJax_Display').each(function( index ) {
+      this.setAttribute('tabindex', '0');
+      this.setAttribute('aria-live', 'off');
+      this.removeAttribute('role');
+      this.removeAttribute('aria-readonly');
+    });
+  }
+</script>
+
+
+<!-- This must appear after all mathjax-config blocks, so it is after the imports from the other templates.
+     It can't be run through static.url because MathJax uses crazy url introspection to do lazy loading of
+     MathJax extension libraries -->
+<script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/MathJax.js.ダウンロード"></script>
+
+
+
+  
+    
+      <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/courseware_factory.1504fc10caef.js.ダウンロード"></script>
+    <script type="text/javascript">
+        (function (require) {
+            require(['js/courseware/courseware_factory'], function (CoursewareFactory) {
+                
+    CoursewareFactory();
+  
+            });
+        }).call(this, require || RequireJS.require);
+    </script>
+
+
+
+  <script type="text/javascript">
+    var $$course_id = "course\u002Dv1:FUNiX+STP303x_01\u002DA_VN+2022_T2";
+  </script>
+
+<script src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/vertical_student_view.9f03a40c9517.js.ダウンロード" type="application/javascript"></script>
+
+
+
+  
+
+
+
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/noreferrer.aa62a3e70ffa.js.ダウンロード" charset="utf-8"></script>
+  <script type="text/javascript" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/navigation.323bf3e1ae16.js.ダウンロード" charset="utf-8"></script>
+  
+
+
+
+
+
+
+<div id="reader-feedback" class="sr" aria-live="polite"></div><div id="lean_overlay"></div><div class="tooltip" style="display: none; opacity: 0;"></div><div id="hflivechat" class="livechat-widget-hide livechat-widget-minimize" style="display:flex;">
+	<div class="title" onclick="showHideWidget()">
+		<div class="toolbar" onclick="showHideWidget()">
+			<svg id="minimizeBtn" class="minimize" title="Minimize" style="display:none;" viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg" onclick="showMinimize()">
+				<path d="M448 328v48c0 22-18 40-40 40h-368c-22 0-40-18-40-40v-48c0-22 18-40 40-40h368c22 0 40 18 40 40z"></path>
+			</svg>
+			<svg id="maximizeBtn" class="maximize" title="Maximize" style="display:inline-block;" onclick="showMaximize()" viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg">
+				<path d="M64 352h320v-192h-320v192zM448 72v304c0 22-18 40-40 40h-368c-22 0-40-18-40-40v-304c0-22 18-40 40-40h368c22 0 40 18 40 40z"></path>
+			</svg>
+		</div>
+		<p id="hflivechat-title">Ask Mentors</p>
+	</div>
+	<div class="tabcontainer">
+		<div class="mentoring-tab">
+			<span class="mentoring-tablinks" onclick="openTab(event)" id="tabDefaultOpen" tab-id="mentor-container">Question now</span>
+			<!-- <span class="mentoring-tablinks" onclick="openTab(event)" tab-id='hanging-question-container'>Hang your Question</span> -->
+			<span class="mentoring-tablinks" onclick="openTab(event)" tab-id="view-history">History</span>
+			<!-- <span class="mentoring-tablinks" onclick="openTab(event, 'booking')">Book a mentor</span>				 -->
+		</div>
+		<div id="mentor-container" class="mentoring-tabcontent">
+			<iframe class="iframefit" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/saved_resource.html" allowtransparency="true" src-url="https://askmentor.funix.edu.vn/hf40-livechat/pages/livechat.html?xTerName=vunaFX19089@funix.edu.vn&amp;xTerEmail=vunaFX19089@funix.edu.vn&amp;hannah=false&amp;xTerDepartment=STP303x&amp;route=livechat"></iframe>
+		</div>
+		<!-- <div id="hanging-question-container" class="mentoring-tabcontent">
+			<iframe class="iframefit" src="" allowTransparency="true"></iframe>
+		</div> -->
+		<div id="view-history" class="mentoring-tabcontent">
+			<iframe class="iframefit" src="./Lab 3 - Thực hành cài đặt Android Studio và kiểm thử mobile app _ Lab 3 _ STP303x_01-A_VN Courseware _ FUNiX_files/saved_resource(1).html" allowtransparency="true" src-url="https://askmentor.funix.edu.vn/hf40-livechat/pages/livechat.html?xTerName=vunaFX19089@funix.edu.vn&amp;xTerEmail=vunaFX19089@funix.edu.vn&amp;hannah=false&amp;xTerDepartment=STP303x&amp;route=studentViewHistory"></iframe>
+		</div>
+		<!-- <div id="booking-container" class="mentoring-tabcontent">
+			<iframe class="iframefit" src="" allowTransparency="true"></iframe>
+		</div> -->
+	</div>
+</div></body></html>

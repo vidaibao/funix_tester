@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-13T13:41:48 JST" name="Default suite" finished-at="2023-03-13T13:44:17 JST" duration-ms="148824">
+    <groups>
+    </groups>
+    <test started-at="2023-03-13T13:41:48 JST" name="Default test" finished-at="2023-03-13T13:44:17 JST" duration-ms="148824">
+      <class name="com.automation.testcases.TC_LoginTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:41:49 JST" name="setUpBrowser" finished-at="2023-03-13T13:41:55 JST" duration-ms="6274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:41:55 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:42:19 JST" duration-ms="23728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:19 JST" name="takeScreenshot" finished-at="2023-03-13T13:42:19 JST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:19 JST" name="cleanObjects" finished-at="2023-03-13T13:42:19 JST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:19 JST" name="setUpBrowser" finished-at="2023-03-13T13:42:22 JST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:22 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:42:32 JST" duration-ms="9440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@13579]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:32 JST" name="takeScreenshot" finished-at="2023-03-13T13:42:32 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:32 JST" name="cleanObjects" finished-at="2023-03-13T13:42:32 JST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:32 JST" name="setUpBrowser" finished-at="2023-03-13T13:42:35 JST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:35 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:42:59 JST" duration-ms="24104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Funix1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:59 JST" name="takeScreenshot" finished-at="2023-03-13T13:42:59 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:42:59 JST" name="cleanObjects" finished-at="2023-03-13T13:43:00 JST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:00 JST" name="setUpBrowser" finished-at="2023-03-13T13:43:17 JST" duration-ms="17820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:17 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:43:28 JST" duration-ms="10134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Funix1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:28 JST" name="takeScreenshot" finished-at="2023-03-13T13:43:28 JST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:28 JST" name="cleanObjects" finished-at="2023-03-13T13:43:28 JST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:28 JST" name="setUpBrowser" finished-at="2023-03-13T13:43:31 JST" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:31 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:43:42 JST" duration-ms="10910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:42 JST" name="takeScreenshot" finished-at="2023-03-13T13:43:42 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:42 JST" name="cleanObjects" finished-at="2023-03-13T13:43:43 JST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:43 JST" name="setUpBrowser" finished-at="2023-03-13T13:43:46 JST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:43:46 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:44:00 JST" duration-ms="14316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:00 JST" name="takeScreenshot" finished-at="2023-03-13T13:44:00 JST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:00 JST" name="cleanObjects" finished-at="2023-03-13T13:44:01 JST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:01 JST" name="setUpBrowser" finished-at="2023-03-13T13:44:05 JST" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:05 JST" name="tc_001_Login_Test" data-provider="Excel" finished-at="2023-03-13T13:44:17 JST" duration-ms="12105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[funixExample7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login_Test -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:17 JST" name="cleanObjects" finished-at="2023-03-13T13:44:17 JST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c]" started-at="2023-03-13T13:44:17 JST" name="takeScreenshot" finished-at="2023-03-13T13:44:17 JST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_001_Login_Test status=SUCCESS method=TC_LoginTest.tc_001_Login_Test(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC_LoginTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- com.automation.testcases.TC_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
